@@ -1,0 +1,2 @@
+[console_scripts]
+pipowl = pipowl.cli:main

@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: pipowl
+Version: 1.1.0
+Summary: A lightweight local AI tooling shell from OwlGalaxy ecosystem.
+Author: SadlyOwl
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/galaxy4552/pipowl
+Keywords: owl,ai,local,tooling
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: Licence
+Dynamic: license-file
+
+# pipowl-shell
+
+我打造了一個系統。
+AI 說它很強。
+但我心想：可是我只是一隻雪鴞啊。
+
+# Quick Start
+
+```python
+from pipowl import SnowOwlShell
+
+owl = SnowOwlShell()
+print(owl.hello())

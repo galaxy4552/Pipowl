@@ -1,0 +1,13 @@
+Licence
+README.md
+pyproject.toml
+pipowl/__init__.py
+pipowl/cli.py
+pipowl/core.py
+pipowl/utils.py
+pipowl/version.py
+pipowl.egg-info/PKG-INFO
+pipowl.egg-info/SOURCES.txt
+pipowl.egg-info/dependency_links.txt
+pipowl.egg-info/entry_points.txt
+pipowl.egg-info/top_level.txt
