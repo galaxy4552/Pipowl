@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pipowl"
+version = "1.0.0"
+description = "A lightweight local AI tooling shell from OwlGalaxy ecosystem."
+authors = [
+    { name="SadlyOwl" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT License"}
+keywords = ["owl", "ai", "local", "tooling"]
+
+[project.urls]
+Homepage = "https://github.com/galaxy4552/pipowl"
