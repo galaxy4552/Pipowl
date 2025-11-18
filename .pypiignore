@@ -1,0 +1,28 @@
+# 不要把 cache 丟到 PyPI
+**/__pycache__/
+*.pyc
+*.pyo
+
+# 不要打包 tests
+tests/
+test*.py
+
+# 不要打包 sandbox
+sandbox/
+
+# 不要打包 git 檔案
+.git/
+.gitignore
+
+# 不要打包 build 檔案
+dist/
+build/
+
+# 不要打包 IDE 設定
+.vscode/
+.idea/
+*.iml
+
+# 不要打包 OS 垃圾
+.DS_Store
+Thumbs.db

@@ -4,10 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pipowl"
-version = "1.1.0"
-description = "A lightweight local AI tooling shell from OwlGalaxy ecosystem."
-authors = [
-    { name="SadlyOwl" }
+version = "1.4.7"
+description = "SemanticOwl + LightOwl + LangOwl open-core"
+authors = [{ name="SadlyOwl", email="galaxy455238@gmail.com" }]
+dependencies = [
+    "numpy",
+    "sentence-transformers"
 ]
 readme = "README.md"
 requires-python = ">=3.8"
@@ -19,3 +21,10 @@ Homepage = "https://github.com/galaxy4552/pipowl"
 
 [project.scripts]
 pipowl = "pipowl.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pipowl*"]
+
+[tool.setuptools.exclude-package-data]
+"*" = ["__pycache__", "*.pyc", "*.pyo"]
