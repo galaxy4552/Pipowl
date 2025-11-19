@@ -29,13 +29,13 @@ pip install pipowl
 使用方式
 ① 叫出 LangOwl（像叫一隻貓頭鷹出來）
 python
-複製程式碼
+
 from pipowl.lang import LangOwl
 
 lang = LangOwl()
 ② 準備一些要比對的句子清單
 python
-複製程式碼
+
 corpus = [
     "我今天真的好累",
     "我覺得今天狀態不太好",
@@ -43,13 +43,14 @@ corpus = [
 ]
 ③ 丟一句話進去，看哪句最像
 python
-複製程式碼
+
 results = lang.topk("我今天真的很想睡覺，因為工作太累了", corpus)
 ④ 印出結果（分數＋句子）
 python
-複製程式碼
+
 for text, score in results:
     print(score, text)
+    
 總結
 
 pipowl 是一個用來「比較句子語意相似度」的小工具。
