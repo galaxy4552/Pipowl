@@ -5,23 +5,36 @@
 
 ---
 
+## Table of Contents
+1. [Introduction](#1-introduction)
+2. [Motivation](#2-motivation)
+3. [Core Philosophy](#3-core-philosophy)
+4. [Architecture](#4-architecture-high-level)
+5. [Key Concepts](#5-key-concepts-high-level-only)
+6. [Use Cases](#6-use-cases)
+7. [Positioning](#7-positioning)
+8. [Open / Closed Boundary](#8-open--closed-boundary)
+9. [Roadmap](#9-roadmap-non-technical)
+10. [Disclaimer](#10-disclaimer)
+
+---
+
 # NCO / PipOwl Whitepaper 0.1
 
 A New Paradigm for Local Semantic Engines
-
 
 ---
 
 ## 1. Introduction
 
 現代語言模型主要依賴 Transformer 與逐 token 解碼（decoding）產生輸出。
-然而在本地端（local device）、輸入法（IME）、即時語意處理等場景中，
-逐 token 巨量運算既昂貴又不必要。
+
+然而在本地端（local device）、輸入法（IME）、即時語意處理等場景中，逐 token 巨量運算既昂貴又不必要。
 
 NCO（NewCoolOwl） 與 PipOwl 導入另一條路線：
 「語意定位（semantic position）＋最近鄰檢索（retrieval）」
-用 embedding 的語意場（semantic field）代替傳統 LLM 的 decoding 路徑。
-
+用 embedding 的語意場
+（semantic field）代替傳統 LLM 的 decoding 路徑。
 
 ---
 
@@ -40,7 +53,6 @@ NCO（NewCoolOwl） 與 PipOwl 導入另一條路線：
 
 NCO 採取的不是 language model 的架構，
 而是一種 語意向量空間理論化（vector-space semantic engine）。
-
 
 ---
 
@@ -130,8 +142,6 @@ Nearest Neighbor Retrieval
 
 隱私優先（no cloud, no LLM）
 
-
-
 ---
 
 ## 7. Positioning
@@ -193,3 +203,6 @@ Academic Paper（Semantic Sphere Theory）
 NCO 與 PipOwl 為 Galaxy4552 / SadlyOwl 的原創技術。
 
 ---
+
+**Version:** 0.1  
+**Updated:** 2025-11-21
