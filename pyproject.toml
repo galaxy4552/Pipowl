@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pipowl"
-version = "1.4.7"
+version = "1.4.8"
 description = "SemanticOwl + LightOwl + LangOwl open-core"
 authors = [{ name="SadlyOwl", email="galaxy455238@gmail.com" }]
 dependencies = [
