@@ -5,9 +5,9 @@ Open Semantic Tools for Python
 ![License](https://img.shields.io/pypi/l/pipowl.svg)
 [![Downloads](https://static.pepy.tech/badge/pipowl)](https://pepy.tech/project/pipowl)
 
-v1.4.8 SemanticOwl + LightOwl + LangOwl Open-Core (10KB)
-v1.5.0 StateOwl open-core (14KB)
-v1.5.1 Enhanced CLI interface (48KB)
+v1.4.8 SemanticOwl + LightOwl + LangOwl Open-Core
+v1.5.0 StateOwl open-core 
+v1.5.1 Enhanced CLI interface
 
 No change to core semantic behavior
 
