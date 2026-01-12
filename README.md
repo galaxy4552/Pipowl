@@ -33,15 +33,18 @@ No change to core semantic behavior
 
 ```bash
 pip install pipowl
-使用方式
+```
+
+## 使用方式
+
+```bash
+
 ① 叫出 LangOwl（像叫一隻貓頭鷹出來）
-python
 
 from pipowl.lang import LangOwl
 
 lang = LangOwl()
 ② 準備一些要比對的句子清單
-python
 
 corpus = [
     "我今天真的好累",
@@ -49,11 +52,9 @@ corpus = [
     "今天的天氣真的很好",
 ]
 ③ 丟一句話進去，看哪句最像
-python
 
 results = lang.topk("我今天真的很想睡覺，因為工作太累了", corpus)
 ④ 印出結果（分數＋句子）
-python
 
 for text, score in results:
     print(score, text)
@@ -75,10 +76,13 @@ pipowl 是一個用來「比較句子語意相似度」的小工具。
 0.882 我覺得今天狀態不太好
 0.834 今天的天氣真的很好
 
+```
+quickstart.py
+
 快速試用（Quickstart）
 py -m quickstart
 
-quickstart.py
+```bash
 from pipowl.lang import LangOwl
 
 # 叫出語意偵探 LangOwl
@@ -103,12 +107,15 @@ while True:
     for text, score in results:
         print(f"{score:.3f} | {text}")
     print()
+```
 
 minimal.py
+
+```bash
 from pipowl.lang import LangOwl
 
 lang = LangOwl()
 results = lang.topk("我很累", ["我好累", "我想吃飯"])
 print(results)
 
-```bash
+```
