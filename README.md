@@ -5,9 +5,9 @@ Open Semantic Tools for Python
 ![License](https://img.shields.io/pypi/l/pipowl.svg)
 [![Downloads](https://static.pepy.tech/badge/pipowl)](https://pepy.tech/project/pipowl)
 
-v1.4.8 SemanticOwl + LightOwl + LangOwl Open-Core
-v1.5.0 StateOwl open-core 
-v1.5.1 Enhanced CLI interface
+- v1.5.1 Enhanced CLI interface
+- v1.5.0 StateOwl open-core 
+- v1.4.8 SemanticOwl + LightOwl + LangOwl Open-Core (suggest)
 
 No change to core semantic behavior
 
@@ -38,7 +38,6 @@ pip install pipowl
 ## 使用方式
 
 ```bash
-
 ① 叫出 LangOwl（像叫一隻貓頭鷹出來）
 
 from pipowl.lang import LangOwl
@@ -57,10 +56,12 @@ results = lang.topk("我今天真的很想睡覺，因為工作太累了", corpu
 ④ 印出結果（分數＋句子）
 
 for text, score in results:
-    print(score, text)
-    
+    print(score, text)    
+```
+
 總結
 
+```bash
 pipowl 是一個用來「比較句子語意相似度」的小工具。
 
 你只要給它兩個東西：
@@ -70,12 +71,14 @@ pipowl 是一個用來「比較句子語意相似度」的小工具。
 你的一組句子（要比的）
 
 它就會告訴你「哪一句最像」。
+```
 
 輸出示例
+
+```bash
 0.903 我今天真的好累
 0.882 我覺得今天狀態不太好
 0.834 今天的天氣真的很好
-
 ```
 quickstart.py
 
