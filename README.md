@@ -59,7 +59,7 @@ for text, score in results:
     print(score, text)    
 ```
 
-總結
+## 總結
 
 ```bash
 pipowl 是一個用來「比較句子語意相似度」的小工具。
@@ -73,17 +73,18 @@ pipowl 是一個用來「比較句子語意相似度」的小工具。
 它就會告訴你「哪一句最像」。
 ```
 
-輸出示例
+## 輸出示例
 
 ```bash
 0.903 我今天真的好累
 0.882 我覺得今天狀態不太好
 0.834 今天的天氣真的很好
 ```
-quickstart.py
 
-快速試用（Quickstart）
-py -m quickstart
+## 快速試用（Quickstart）
+
+### quickstart.py
+- py -m quickstart
 
 ```bash
 from pipowl.lang import LangOwl
@@ -112,7 +113,7 @@ while True:
     print()
 ```
 
-minimal.py
+### minimal.py
 
 ```bash
 from pipowl.lang import LangOwl
