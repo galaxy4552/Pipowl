@@ -10,8 +10,6 @@ corpus = [
     "今天的天氣真的很好",
 ]
 
-print("模型載入完成！你可以開始輸入句子（Ctrl+C 結束）\n")
-
 # 互動式輸入
 while True:
     query = input("請輸入句子： ")

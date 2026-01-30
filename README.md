@@ -5,12 +5,9 @@ Open Semantic Tools for Python
 ![License](https://img.shields.io/pypi/l/pipowl.svg)
 [![Downloads](https://static.pepy.tech/badge/pipowl)](https://pepy.tech/project/pipowl)
 
-- v1.5.1 Enhanced CLI interface
-- v1.5.0 StateOwl open-core 
-- v1.4.8 SemanticOwl + LightOwl + LangOwl Open-Core (suggest)
+pipowl: 目標：快速、穩定的 embedding 相似度工具
 
-No change to core semantic behavior
-
+v1.6.0
 ---
 
 ## pipowl 提供：
@@ -18,14 +15,8 @@ No change to core semantic behavior
 ### **SemanticOwl**
 輕量語意編碼器（使用 SentenceTransformer）
 
-### **LightOwl**
-文本清洗工具
-
 ### **LangOwl**
 語意搜尋（top-k + cosine similarity）
-
-### **StateOwl**
-簡易狀態表示
 
 ---
 
@@ -98,8 +89,6 @@ corpus = [
     "我覺得今天狀態不太好",
     "今天的天氣真的很好",
 ]
-
-print("模型載入完成！你可以開始輸入句子（Ctrl+C 結束）\n")
 
 # 互動式輸入
 while True:

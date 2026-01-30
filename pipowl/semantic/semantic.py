@@ -1,7 +1,5 @@
 import numpy as np
-from sentence_transformers import SentenceTransformer
 from typing import List, Tuple
-
 
 class SemanticOwl:
     """
@@ -11,6 +9,14 @@ class SemanticOwl:
     - top-k search
     """
 
+    # -----------------------------------------------------
+    ## 預設模型（可自行替換）
+    ## - sentence-transformers/all-MiniLM-L6-v2（英文/通用）
+    ## - BAAI/bge-small-zh-v1.5（中文推薦）
+    ## - Qwen/Qwen3-Embedding-4B（高品質，大模型）
+    ##
+    ## pipowl 目標：快速、穩定的 embedding 相似度工具
+    # -----------------------------------------------------
     def __init__(self, model_name="sentence-transformers/all-MiniLM-L6-v2"):
         self.model_name = model_name
         self.model = None
