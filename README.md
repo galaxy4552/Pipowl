@@ -8,6 +8,7 @@ Open Semantic Tools for Python
 pipowl: 目標：快速、穩定的 embedding 相似度工具
 
 v1.6.0
+
 ---
 
 ## pipowl 提供：
